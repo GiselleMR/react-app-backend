@@ -4,7 +4,7 @@ const port = 3000;
 const dogsRouter = require('./routes/dogs')
 
 //environment
-require('dotenv').config;
+require('dotenv').config();
 
 //database connection
 require('./config/database');
