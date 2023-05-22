@@ -11,6 +11,7 @@ require('dotenv').config();
 require('./config/database');
 
 //Middleware
+app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 // ROUTES
